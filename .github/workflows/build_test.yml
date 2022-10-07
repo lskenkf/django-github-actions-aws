@@ -41,8 +41,8 @@ jobs:
         uses: einaregilsson/beanstalk-deploy@v20
         with:
 
-          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_access_key: AKIA3PJY7HDDADRLYWWR
+          aws_secret_key: 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
 
           application_name: aws_webapp_test-1
           environment_name: Awswebapptest-env-1
