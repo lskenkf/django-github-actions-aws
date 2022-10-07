@@ -44,8 +44,8 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
-          application_name: aws_webapp_test
-          environment_name: Awswebapptest-env
+          application_name: aws_webapp_test-1
+          environment_name: Awswebapptest-env-1
 
           version_label: Sample Application
           region:  us-east-1
